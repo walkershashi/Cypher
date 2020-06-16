@@ -14,8 +14,8 @@ The Password is considered to be strong if it consists:
 <ul>
 <li> Atleast one lowercase character: ['a-z'] </li>
 <li> Atleast one uppercase character: ['A-Z'] </li>
-<li> Atleast on digit: ['0-9'] </li>
-<li> Atleast on special character: ['!@#$%^&*_'] </li>
+<li> Atleast one digit: ['0-9'] </li>
+<li> Atleast one special character: ['!@#$%^&*_'] </li>
 </ul>
 
 This script also has a <code>global dictionary</code> which has character names as key and bool as values which tells whether this chararter is missing or not.
