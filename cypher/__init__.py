@@ -1,2 +1,2 @@
-from .StrongPassword import checkPassword
+from .StrongPassword import checkPassword, REQUIRED_CHARACTER
 from .Encryption import encryptPassword
