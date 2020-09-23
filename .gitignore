@@ -4,3 +4,4 @@ sdist
 wheels
 *.egg-info
 build
+.vscode/
