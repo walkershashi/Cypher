@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name = 'cypher',
-    version = '1.0',
+    version = '0.2',
     author = 'shashi',
     author_email = 'skssunny30@gmail.com',
     description = 'Password Encryptor by suggesting wheather a password is strong or not',
