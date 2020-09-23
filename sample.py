@@ -1,6 +1,5 @@
-import StrongPassword
-from StrongPassword import checkPassword
-from Encryption import encryptPassword
+from cypher import checkPassword, REQUIRED_CHARACTER
+from cypher import encryptPassword
 
 password = input("Enter your Password: ")
 check_password = checkPassword()
@@ -17,6 +16,6 @@ else:
     print("Weak Password!!")
     print("Characters Required: ")
 
-    for char, required in StrongPassword.REQUIRED_CHARACTER.items():
+    for char, required in REQUIRED_CHARACTER.items():
         if required:
             print(char)
